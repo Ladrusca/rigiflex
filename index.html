@@ -12,16 +12,16 @@
             <div id="contact" class="rounded_borders"></div>
         </div>
         <div id="row_2" class="rounded_borders">
-            <div class="box1" class="rounded_borders" ></div>
-            <div class="box2" class="rounded_borders" ></div>
-            <div class="box3" class="rounded_borders" ></div>
-            <div class="box4" class="rounded_borders"></div>
+            <div class="box rounded_borders" ></div>
+            <div class="box rounded_borders" ></div>
+            <div class="box rounded_borders" ></div>
+            <div class="box rounded_borders"></div>
         </div>
         <div id="row_3" class="rounded_borders">
-            <div class="box1" class="rounded_borders" ></div>
-            <div class="box2" class="rounded_borders" ></div>
-            <div class="box3" class="rounded_borders" ></div>
-            <div class="box4" class="rounded_borders" ></div>
+            <div class="box rounded_borders" ></div>
+            <div class="box rounded_borders" ></div>
+            <div class="box rounded_borders" ></div>
+            <div class="box rounded_borders" ></div>
         </div>
     </div>
 
@@ -44,52 +44,46 @@
     }
     #row_1{
         height: 60vh;
-        width:max-content
+        width:100%;
         border: 1px solid blue;
         display: flex;
+        gap: 20px;
     }
     #carrousel{
         height: 100%;
-        width: 77%;
+        width: 74%;
         border: 2px solid cyan;
     }
     #contact{
         height: 100%;
-        width: 22%;
+        flex-grow: 1;
         border: 1px solid yellow;
-        margin-left: 20px;
     }
     .rounded_borders{
         border-radius: 10px;
     }
     #row_2{
         height: 20vh;
-        width:max-content;
+        width:100%;
         margin-top: 20px;
         display: flex;
+        justify-content: space-between;
+        gap: 20px;
     }
 
     #row_3{
         height: 20vh;
-        width:max-content;
+        width:100%;
         margin-top: 20px;
         display: flex;
+        justify-content: space-between;
+        gap: 20px;
     }
 
-    .box1, .box2, .box3{
+    .box{
         height: 20vh;
-        width: 15vw;
+        width: 100%;
         border: 1px solid rgb(255, 255, 255);
-        border-radius: 10px;
-        margin-right: 20px
-
-    }
-
-    .box4{
-        height: 20vh;
-        width: 15vw;
-        border: 1px solid rgb(255, 255, 255);
-        border-radius: 10px;
     }
 
 </style>
