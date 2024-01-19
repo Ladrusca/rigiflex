@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(48, 48, 48);
+    background-color: rgb(48, 48, 48) !important;
     display:flex;
     flex-direction: column;
     align-items: center;
