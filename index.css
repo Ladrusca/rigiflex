@@ -65,7 +65,7 @@ nav{
 }
 
 #nav_subcontainer_left{
-    width: 35vw;
+    width: 37.5vw;
     height: 100%;
     border: 1px solid hsl(0, 100%, 52%);
     display: flex;
@@ -76,7 +76,7 @@ nav{
 
 #nav_subcontainer_right{
     height: 100%;
-    width: 35vw;
+    width: 37.5vw;
     border: 1px solid #0004ff;
 
 }
@@ -86,4 +86,53 @@ nav{
     height: 40px;
     width:196px;
     display: block;
+}
+
+#nav_buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+input:focus::-webkit-input-placeholder{
+    color: transparent;
+}
+
+#nav_buttons > li{
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.nav_button{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(73, 72, 72);
+    text-transform: uppercase;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.nav_button:hover{
+    color: green;
+    border-bottom: 5px solid green;
+}
+
+#container_nav_search{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
